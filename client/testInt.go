@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/Arman92/go-tdlib/v2/tdlib"
+	"github.com/jancimertel/go-tdlib/v2/tdlib"
 )
 
 // TestSquareInt Returns the squared received number; for testing only. This is an offline method. Can be called before authorization

@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/Arman92/go-tdlib/v2/tdlib"
+	"github.com/jancimertel/go-tdlib/v2/tdlib"
 )
 
 // GetLanguagePackInfo Returns information about a language pack. Returned language pack identifier may be different from a provided one. Can be called before authorization

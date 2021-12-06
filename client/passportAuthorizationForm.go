@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/Arman92/go-tdlib/v2/tdlib"
+	"github.com/jancimertel/go-tdlib/v2/tdlib"
 )
 
 // GetPassportAuthorizationForm Returns a Telegram Passport authorization form for sharing data with a service

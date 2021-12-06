@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/Arman92/go-tdlib/v2/tdlib"
+	"github.com/jancimertel/go-tdlib/v2/tdlib"
 )
 
 // GetChatListsToAddChat Returns chat lists to which the chat can be added. This is an offline request

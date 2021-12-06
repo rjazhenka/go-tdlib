@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/Arman92/go-tdlib/v2/tdlib"
+	"github.com/jancimertel/go-tdlib/v2/tdlib"
 )
 
 // ValidateOrderInfo Validates the order information provided by a user and returns the available shipping options for a flexible invoice
