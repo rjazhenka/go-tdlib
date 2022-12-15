@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/jancimertel/go-tdlib/v2/tdlib"
+	"github.com/rjazhenka/go-tdlib/v2/tdlib"
 )
 
 // TestCallVectorIntObject Returns the received vector of objects containing a number; for testing only. This is an offline method. Can be called before authorization

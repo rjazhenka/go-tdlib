@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/jancimertel/go-tdlib/v2/tdlib"
+	"github.com/rjazhenka/go-tdlib/v2/tdlib"
 )
 
 // GetMessageThread Returns information about a message thread. Can be used only if message.can_get_message_thread == true

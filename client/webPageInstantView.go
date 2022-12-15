@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/jancimertel/go-tdlib/v2/tdlib"
+	"github.com/rjazhenka/go-tdlib/v2/tdlib"
 )
 
 // GetWebPageInstantView Returns an instant view version of a web page if available. Returns a 404 error if the web page has no instant view page

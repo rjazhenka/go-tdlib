@@ -5,7 +5,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/jancimertel/go-tdlib/v2/tdlib"
+	"github.com/rjazhenka/go-tdlib/v2/tdlib"
 )
 
 // GetLoginURLInfo Returns information about a button of type inlineKeyboardButtonTypeLoginUrl. The method needs to be called when the user presses the button

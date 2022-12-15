@@ -5,7 +5,7 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/jancimertel/go-tdlib/v2/tdlib"
+	"github.com/rjazhenka/go-tdlib/v2/tdlib"
 )
 
 // SearchSecretMessages Searches for messages in secret chats. Returns the results in reverse chronological order. For optimal performance, the number of returned messages is chosen by TDLib

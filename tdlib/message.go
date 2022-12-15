@@ -194,7 +194,7 @@ func (message *Message) UnmarshalJSON(b []byte) error {
 	message.MediaAlbumID = tempObj.MediaAlbumID
 	message.RestrictionReason = tempObj.RestrictionReason
 
-	fieldSender, _ := unmarshalMessageSender(objMap["sender"])
+	fieldSender, _ := unmarshalMessageSender(objMap["sender_id"])
 	message.Sender = fieldSender
 
 	fieldSendingState, _ := unmarshalMessageSendingState(objMap["sending_state"])

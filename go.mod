@@ -1,3 +1,3 @@
-module github.com/jancimertel/go-tdlib/v2
+module github.com/rjazhenka/go-tdlib/v2
 
 go 1.15
